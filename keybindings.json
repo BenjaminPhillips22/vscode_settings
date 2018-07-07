@@ -66,57 +66,5 @@
         "key": "ctrl+x",
         "command": "workbench.action.terminal.kill",
         "when": "terminalFocus"
-    },
-//     // "vim.otherModesKeyBindings": [
-//     "vim.normalModeKeyBindings": [
-//         {
-//             "before": ["j"],
-//             "after": ["h"]
-//         },
-//         {
-//             "before": ["k"],
-//             "after": ["j"]
-//         },
-//         {
-//             "before": ["l"],
-//             "after": ["k"]
-//         },
-//         {
-//             "before": [";"],
-//             "after": ["l"]
-//         },
-//         {
-//             "before": ["h"],
-//             "after": []
-//         },
-//         {
-//             "before": ["J"],
-//             "after": ["H"]
-//         },
-//         {
-//             "before": ["K"],
-//             "after": ["J"]
-//         },
-//         {
-//             "before": ["L"],
-//             "after": ["K"]
-//         },
-//         {
-//             "before": [":"],
-//             "after": ["L"]
-//         },
-//         {
-//             "before": ["H"],
-//             "after": []
-//         },
-//         {
-//             "before": ["'"],
-//             "after" : [";"]
-//         },
-//         {
-//             "before": ["\""],
-//             "after" : [":"]
-//         }    
-//     ],
-
+    }
 ]
