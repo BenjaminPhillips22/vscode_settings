@@ -1,0 +1,122 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+0",
+        "command": "workbench.action.terminal.focus"//,
+        //"when": "terminal.focus"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+                    "snippet": "# %%"
+                }
+    },
+    {
+        "key": "ctrl+m",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+                    "snippet": " %>% "
+                }
+    },
+    {
+        "key": "ctrl+-",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+                    "snippet": " <- "
+                }
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "jupyter.execCurrentCell",
+        "when": "editorFocus && !findWidgetVisible && !replaceActive && !searchViewletVisible"
+    },
+    {
+        "key": "shift+enter",
+        "command": "jupyter.execCurrentCellAndAdvance",
+        "when": "editorFocus && !findWidgetVisible && !replaceActive && !searchViewletVisible"
+    },    
+    {
+        "key": "ctrl+alt+enter",
+        "command": "jupyter.runSelectionLine",
+        "when": "editorFocus && !findWidgetVisible && !replaceActive && !searchViewletVisible"
+    },
+    {   "key": "ctrl+enter",
+        "command": "r.runSelection",
+        "when": "editorTextFocus && editorLangId == 'r'" 
+    },
+    {
+        "key": "ctrl+shift+s",
+        "command": "r.runSource",
+        "when": "editorTextFocus && editorLangId == 'r'" 
+    },
+    {   "key": "ctrl+l",
+        "command": "workbench.action.terminal.focusNext",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.terminal.focusPrevious",
+        "when": "terminalFocus"
+    },
+    { 
+        "key": "ctrl+x",
+        "command": "workbench.action.terminal.kill",
+        "when": "terminalFocus"
+    },
+//     // "vim.otherModesKeyBindings": [
+//     "vim.normalModeKeyBindings": [
+//         {
+//             "before": ["j"],
+//             "after": ["h"]
+//         },
+//         {
+//             "before": ["k"],
+//             "after": ["j"]
+//         },
+//         {
+//             "before": ["l"],
+//             "after": ["k"]
+//         },
+//         {
+//             "before": [";"],
+//             "after": ["l"]
+//         },
+//         {
+//             "before": ["h"],
+//             "after": []
+//         },
+//         {
+//             "before": ["J"],
+//             "after": ["H"]
+//         },
+//         {
+//             "before": ["K"],
+//             "after": ["J"]
+//         },
+//         {
+//             "before": ["L"],
+//             "after": ["K"]
+//         },
+//         {
+//             "before": [":"],
+//             "after": ["L"]
+//         },
+//         {
+//             "before": ["H"],
+//             "after": []
+//         },
+//         {
+//             "before": ["'"],
+//             "after" : [";"]
+//         },
+//         {
+//             "before": ["\""],
+//             "after" : [":"]
+//         }    
+//     ],
+
+]

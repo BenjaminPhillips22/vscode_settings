@@ -1,0 +1,90 @@
+{
+    "window.zoomLevel": 1,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "yapf",
+    // "vim.disableAnnoyingNeovimMessage": true,
+    "vim.overrideCopy": false,
+    "vim.useCtrlKeys": false,
+    "vim.startInInsertMode": false,
+    "vim.easymotion": true,
+    "vim.leader": " ",
+    "r.rterm.windows": "C:\\Program Files\\R\\R-3.4.0\\bin\\x64\\R.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    // "terminal.integrated.shell.windows": "C:\\Users\\ben.philips\\AppData\\Local\\Programs\\Git\\git-bash.exe",
+    "editor.minimap.enabled": false,
+    "jupyter.appendResults": false,
+    "telemetry.enableTelemetry": false,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+        "before": ["j"],
+        "after": ["h"]
+        },
+        {
+        "before": ["k"],
+        "after": ["j"]
+        },
+        {
+        "before": ["l"],
+        "after": ["k"]
+        },
+        {
+        "before": [";"],
+        "after": ["l"]
+        },
+        {
+        "before": ["h"],
+        "after": []
+        },
+        {
+        "before": ["J"],
+        "after": ["H"]
+        },
+        {
+        "before": ["K"],
+        "after": ["J"]
+        },
+        {
+        "before": ["L"],
+        "after": ["K"]
+        },
+        {
+        "before": [":"],
+        "after": ["L"]
+        },
+        {
+        "before": ["H"],
+        "after": []
+        },
+        {
+        "before": ["'"],
+        "after" : [";"]
+        },
+        {
+        "before": ["\""],
+        "after" : [":"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["j"],
+            "after": ["h"]
+            },
+            {
+            "before": ["k"],
+            "after": ["j"]
+            },
+            {
+            "before": ["l"],
+            "after": ["k"]
+            },
+            {
+            "before": [";"],
+            "after": ["l"]
+            },
+            {
+            "before": ["h"],
+            "after": []
+            }
+    ]
+}
